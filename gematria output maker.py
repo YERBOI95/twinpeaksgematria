@@ -48,6 +48,43 @@ for x in query:
 print(engQaResult)
 #print("English Qaballa = ", sum(engQaResult))
 
+#english Qaballa
+TrigramEngQaballa ={}
+TrigramEngQaballa ['A'] = 5
+TrigramEngQaballa ['L'] = 1  
+TrigramEngQaballa ['W'] = 8
+TrigramEngQaballa ['H'] = 3
+TrigramEngQaballa ['S'] = 15
+TrigramEngQaballa ['D'] =23
+TrigramEngQaballa ['O'] =10
+TrigramEngQaballa ['Z'] =19
+TrigramEngQaballa ['K'] =17
+TrigramEngQaballa ['V'] =22
+TrigramEngQaballa ['G'] =11
+TrigramEngQaballa ['R'] =14
+TrigramEngQaballa['C'] =2
+TrigramEngQaballa['N'] =24
+TrigramEngQaballa['Y'] =18
+TrigramEngQaballa['J'] =7
+TrigramEngQaballa['U'] =25
+TrigramEngQaballa['F'] =12
+TrigramEngQaballa['Q'] =16
+TrigramEngQaballa['B'] =20
+TrigramEngQaballa['M'] =21
+TrigramEngQaballa['X'] =6
+TrigramEngQaballa['I'] =0
+TrigramEngQaballa['T'] =9
+TrigramEngQaballa['E'] =13
+TrigramEngQaballa['P'] =4
+
+#letter to number
+TengQaResult = {}
+for x in query:
+    y = list(x)
+    print(x)
+    TengQaResult[x] = sum([TrigramEngQaballa[k] for k in y if k in TrigramEngQaballa])
+print(TengQaResult)
+
 
 stdreng ={}
 stdreng['A'] = 6
