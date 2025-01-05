@@ -1,6 +1,7 @@
 # twinpeaksgematria
 Little repository where you can look at some twin peaks gematria. 
-
+I MADE AN ONLINE CALC FORGET THIS PROJECT:
+https://www.tegcalc.com/
 
 Take a look at the output csv file in microsoft excel or google sheets. Make sure to highlight duplicates to easily find "collisions".
 
